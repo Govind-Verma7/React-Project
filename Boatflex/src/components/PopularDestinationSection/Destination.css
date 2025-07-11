@@ -1,0 +1,271 @@
+#popDesHead {
+  margin-top: 3.6em;
+  margin-left: 10%;
+  font-size: 2.7em;
+}
+.destinationContTwo{
+  display: none;
+}
+.destinationContThree{
+  display: none;
+}
+.destinationContFour{
+  display: none;
+}
+
+#popDesTxt {
+  margin-left: 10%;
+  margin-top: 1em;
+  font-size: 1.7em;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 2.3em;
+}
+
+.slider {
+  margin-left: 10%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 25em;
+  height: 35em;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.destinationImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 23.8em;
+  height: 35em;
+}
+
+.imageText {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.destinationImage:hover {
+  cursor: pointer;
+}
+@media (max-width:1450px) and (min-width:1350px){
+  .imageWrapper {
+    position: relative;
+    width: 20em;
+    height: 30em;
+  }
+  
+  .destinationImage {
+    width: 20em;
+    height: 30em;
+  }
+  .imageText {
+    font-size: 2.5em;
+  }
+}
+@media (max-width:1351px) and (min-width:1150px){
+  .imageWrapper {
+    position: relative;
+    width: 17em;
+    height: 25em;
+  }
+  
+  .destinationImage {
+    width: 17em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 2em;
+  }
+}
+@media (max-width:1149px) and (min-width:1020px){
+  .slider {
+    width: 94vw;
+    margin-left: 3%;
+  }
+  .imageWrapper {
+    position: relative;
+    width: 15em;
+    height: 25em;
+  }
+  
+  .destinationImage {
+    width: 15em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.7em;
+  }
+}
+@media (max-width:1019px) and (min-width:890px){
+  .slider {
+    width: 94vw;
+    margin-left: 3%;
+  }
+  .imageWrapper {
+    position: relative;
+    width: 13em;
+    height: 23em;
+  }
+  
+  .destinationImage {
+    width: 13em;
+    height: 23em;
+  }
+  .imageText {
+    font-size: 1.5em;
+  }
+}
+@media (max-width:889px) and (min-width:760px){
+  .imageWrapper {
+    position: relative;
+    width: 13.5em;
+    height: 18em;
+  }
+  .slider {
+    margin-left: 3%;
+    width: 93vw;
+  }
+  
+  .destinationImage {
+    width: 45em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.2em;
+  }
+  #popDesHead {
+    font-size: 2em;
+  }
+  
+  #popDesTxt {
+    font-size: 1em;
+  }
+  .destinationCont{
+    display: none;
+  }
+  .destinationContTwo{
+    display: inline;
+  }
+}
+@media (max-width:759px) and (min-width:620px){
+  .imageWrapper {
+    position: relative;
+    width: 11em;
+    height: 16em;
+  }
+  
+  .destinationImage {
+    width: 50em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.2em;
+  }
+  #popDesHead {
+    font-size: 2em;
+  }
+  
+  #popDesTxt {
+    font-size: 1em;
+  }
+  .destinationCont{
+    display: none;
+  }
+  .destinationContTwo{
+    display: inline;
+  }
+}
+@media (max-width:619px) and (min-width:420px){
+  .imageWrapper {
+    position: relative;
+    width: 11.4em;
+    height: 16em;
+  }
+  
+  .destinationImage {
+    width: 50em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.2em;
+  }
+  #popDesHead {
+    font-size: 2em;
+  }
+  
+  #popDesTxt {
+    font-size: 1em;
+  }
+  .destinationCont{
+    display: none;
+  }
+  .destinationContThree{
+    display: inline;
+  }
+}
+@media(max-width:420px){
+  .imageWrapper {
+    position: relative;
+    width: 20em;
+    height: 16em;
+  }
+  
+  .destinationImage {
+    width: 50em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.2em;
+  }
+  #popDesHead {
+    font-size: 2em;
+  }
+  
+  #popDesTxt {
+    font-size: 1em;
+  }
+  .destinationCont{
+    display: none;
+  }
+  .destinationContFour{
+    display: inline;
+  }
+}
+@media(max-width:350px){
+  .imageWrapper {
+    position: relative;
+    width: 18em;
+    height: 16em;
+  }
+  
+  .destinationImage {
+    width: 50em;
+    height: 25em;
+  }
+  .imageText {
+    font-size: 1.2em;
+  }
+  #popDesHead {
+    font-size: 2em;
+  }
+  
+  #popDesTxt {
+    font-size: 1em;
+  }
+  .destinationCont{
+    display: none;
+  }
+  .destinationContFour{
+    display: inline;
+  }
+}

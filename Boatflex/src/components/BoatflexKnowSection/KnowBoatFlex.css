@@ -1,0 +1,454 @@
+.baotflexKnow{
+    margin-left: 10%;
+    margin-top: 1em;
+    position: relative;
+}
+#knowHead{
+    font-size: 2.8em;
+    margin-bottom: 1.3em;
+}
+.purpleBox{
+    height: 15em;
+    width: 38em;
+    border-radius: 10px;
+    padding: 3.3em;
+    background-color: rgb(84, 11, 220);
+    color: #fff;
+}
+#purpleBoxHead{
+    font-size: 2.2em;
+    margin-bottom: 0.6em;
+}
+.twoTxt{
+    display: flex;
+    gap: 4em;
+}
+.oneTxt{
+    font-size: 1.6em;
+}
+.whiteBox{
+    height: 20em;
+    width: 60em;
+    display: flex;
+    position: absolute;
+    top: 16.5em;
+    left: 23em;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 3.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+}
+.cirImg{
+    border: 5px solid rgb(84, 11, 220);
+    height: 7em;
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 50px;
+}
+.stepImg{
+    height: 4em;
+    width: 4em;
+}
+.circleTxt{
+    height: 20em;
+    width: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+.stepPara{
+    font-size: 1.1em;
+    text-align-last: center;
+}
+.centerPara{
+        height: 7em;
+}
+#renter{
+    color: rgba(230,230,230,0.5);
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+#renter:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+#boatOwner:hover{
+    cursor: pointer;
+}
+
+@media(max-width:1450px) and (min-width:1200px){
+    .baotflexKnow{
+        margin-top: 0em;
+    }
+    .purpleBox{
+        height: 13em;
+        width: 35em;
+        padding: 3em;
+    }
+    #purpleBoxHead{
+        font-size: 2em;
+    }
+    .twoTxt{
+        gap: 3em;
+    }
+    .oneTxt{
+        font-size: 1.4em;
+    }
+    .whiteBox{
+        height: 18em;
+        width: 46em;
+        top: 15.5em;
+        left: 20em;
+        padding: 3em;
+    }
+    .cirImg{
+        height: 6em;
+        width: 6em;
+        padding: 50px;
+    }
+    .stepImg{
+        height: 3.5em;
+        width: 3.5em;
+    }
+    .circleTxt{
+        height: 18em;
+        width: 16em;
+        gap: 2em;
+    }
+    .stepPara{
+        font-size: 1em;
+    }
+    .centerPara{
+         height: 6em;
+    }
+}
+
+@media(max-width:1199px) and (min-width:1050px){
+    .baotflexKnow{
+        margin-top: 0em;
+    }
+    #knowHead{
+        font-size: 2.3em;
+    }
+    .purpleBox{
+        height: 12em;
+        width: 33em;
+        padding: 2em;
+    }
+    #purpleBoxHead{
+        font-size: 1.9em;
+    }
+    .twoTxt{
+        gap: 2.5em;
+    }
+    .oneTxt{
+        font-size: 1.2em;
+    }
+    .whiteBox{
+        height: 15em;
+        width: 40em;
+        top: 14em;
+        left: 16em;
+        padding: 2em;
+    }
+    .stepImg{
+        height: 3em;
+        width: 3em;
+    }
+    .circleTxt{
+        height: 13em;
+        width: 13em;
+        gap: 2em;
+    }
+    .cirImg{
+        height: 6em;
+        width: 6em;
+        padding: 30px;
+    }
+    .stepPara{
+        font-size: 0.8em;
+    }
+    .centerPara{
+         height: 4em;
+    }
+}
+@media(max-width:1049px) and (min-width:990px){
+    .baotflexKnow{
+        margin-top: 0em;
+        margin-left: 8%;
+    }
+    #knowHead{
+        font-size: 2em;
+    }
+    .purpleBox{
+        height: 10em;
+        width: 30em;
+        padding: 1.8em;
+    }
+    #purpleBoxHead{
+        font-size: 1.8em;
+    }
+    .twoTxt{
+        gap: 2em;
+    }
+    .oneTxt{
+        font-size: 1em;
+    }
+    .whiteBox{
+        height: 13em;
+        width: 36em;
+        top: 11.5em;
+        left: 14em;
+        padding: 2em;
+    }
+    .stepImg{
+        height: 3em;
+        width: 3em;
+    }
+    .circleTxt{
+        height: 13em;
+        width: 13em;
+        gap: 2em;
+    }
+    .cirImg{
+        height: 5em;
+        width: 5em;
+        padding: 30px;
+    }
+    .stepPara{
+        font-size: 0.7em;
+    }
+    .centerPara{
+         height: 3em;
+    }
+}
+
+@media(max-width:989px) and (min-width:750px){
+    .baotflexKnow{
+        margin-top: 0em;
+        margin-left: 6%;
+    }
+    .baotflexKnow{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    #knowHead{
+        font-size: 2em;
+    }
+    .purpleBox{
+        height: 9em;
+        width: 40em;
+        padding: 1.5em;
+    }
+    #purpleBoxHead{
+        font-size: 2em;
+    }
+    .twoTxt{
+        gap: 2em;
+    }
+    .oneTxt{
+        font-size: 1.2em;
+    }
+    .whiteBox{
+        height: 15em;
+        width: 40em;
+        padding: 1em;
+        position: static;
+    }
+    .stepImg{
+        height: 4em;
+        width: 4em;
+    }
+    .circleTxt{
+        height: 15em;
+        width: 15em;
+        gap: 2em;
+    }
+    .cirImg{
+        height: 5em;
+        width: 5em;
+        padding: 40px;
+    }
+    .stepPara{
+        font-size: 0.8em;
+    }
+    .centerPara{
+         height: 2.5em;
+    }
+}
+@media(max-width:749px) and (min-width:530px){
+    .baotflexKnow{
+        margin-top: 0em;
+        margin-left: 4%;
+    }
+    #knowHead{
+        font-size: 1.5em;
+    }
+    .baotflexKnow{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .purpleBox{
+        height: 10em;
+        width: 30em;
+        padding: 1.5em;
+    }
+    #purpleBoxHead{
+        font-size: 1.9em;
+    }
+    .twoTxt{
+        gap: 2em;
+    }
+    .oneTxt{
+        font-size: 1.2em;
+    }
+    .whiteBox{
+        height: 34em;
+        width: 30em;
+        padding: 1em;
+        flex-direction: column;
+        position: static;
+    }
+    .stepImg{
+        height: 3em;
+        width: 3em;
+    }
+    .circleTxt{
+        height: 12em;
+        width: 25em;
+        gap: 1.5em;
+    }
+    .cirImg{
+        height: 3em;
+        width: 3em;
+        padding: 40px;
+    }
+    .stepPara{
+        font-size: 0.9em;
+    }
+    .centerPara{
+         height: 2em;
+    }
+}
+
+@media(max-width:529px){
+    .baotflexKnow{
+        margin-top: 0em;
+        margin-left: 0%;
+    }
+    #knowHead{
+        font-size: 1.4em;
+    }
+    .baotflexKnow{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .purpleBox{
+        height: 8em;
+        width: 22em;
+        padding: 1em;
+    }
+    #purpleBoxHead{
+        font-size: 1.3em;
+    }
+    .twoTxt{
+        gap: 2em;
+    }
+    .oneTxt{
+        font-size: 1em;
+    }
+    .whiteBox{
+        height: 34em;
+        width: 22em;
+        padding: 1em;
+        flex-direction: column;
+        position: static;
+    }
+    .stepImg{
+        height: 3em;
+        width: 3em;
+    }
+    .circleTxt{
+        height: 12em;
+        width: 22em;
+        gap: 1.5em;
+    }
+    .cirImg{
+        height: 3em;
+        width: 3em;
+        padding: 40px;
+    }
+    .stepPara{
+        font-size: 0.8em;
+    }
+    .centerPara{
+         height: 2em;
+    }
+}
+@media(max-width:350px){
+    .baotflexKnow{
+        margin-top: 0em;
+        margin-left: 0%;
+    }
+    #knowHead{
+        font-size: 1.3em;
+    }
+    .baotflexKnow{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .purpleBox{
+        height: 8em;
+        width: 96vw;
+        padding: 1em;
+    }
+    #purpleBoxHead{
+        font-size: 1.3em;
+    }
+    .twoTxt{
+        gap: 2em;
+    }
+    .oneTxt{
+        font-size: 1em;
+    }
+    .whiteBox{
+        height: 34em;
+        width: 96vw;
+        padding: 1em;
+        flex-direction: column;
+        position: static;
+    }
+    .stepImg{
+        height: 3em;
+        width: 3em;
+    }
+    .circleTxt{
+        height: 12em;
+        width: 20em;
+        gap: 1.5em;
+    }
+    .cirImg{
+        height: 3em;
+        width: 3em;
+        padding: 40px;
+    }
+    .stepPara{
+        font-size: 0.8em;
+    }
+    .centerPara{
+         height: 2em;
+    }
+}

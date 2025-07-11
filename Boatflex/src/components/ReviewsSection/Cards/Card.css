@@ -1,0 +1,86 @@
+.starIcn{
+    color: rgb(96, 38, 205);
+    padding-right: 0.8em;
+    font-size: 1.2em;
+}
+.cardContainer{
+    height: 25em;
+    width: 27em;
+    padding: 3em 2.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.4);
+}
+.personImg{
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
+.cardPara{
+    margin-left: 0;
+    font-size: 1.11em;
+    line-height: 1.4;
+    color: rgba(0,0,0,0.7);
+}
+.paraDiv{
+    height: 9em;
+    user-select: none;
+}
+@media(max-width:1300px) and (min-width:1000px){
+    .starIcn{
+        padding-right: 0.4em;
+        font-size: 1em;
+    }
+    .cardContainer{
+        height: 23em;
+        width: 24em;
+        padding: 2.5em 2.2em;
+    }
+    .cardPara{
+        font-size: 1em;
+    }
+}
+@media(max-width:1000px) and (min-width:770px){
+    .starIcn{
+        padding-right: 0.3em;
+        font-size: 1em;
+    }
+    .cardContainer{
+        height: 23em;
+        width: 23em;
+        padding: 2.3em 2em;
+    }
+    .cardPara{
+        font-size: 1em;
+    }
+}
+@media(max-width:769px) and (min-width:570px){
+    .starIcn{
+        padding-right: 0.2em;
+        font-size: 1em;
+    }
+    .cardContainer{
+        height: 23em;
+        width: 23em;
+        padding: 2.3em 2em;
+    }
+    .cardPara{
+        font-size: 0.9em;
+    }
+}
+@media(max-width:569px){
+    .starIcn{
+        padding-right: 0.2em;
+        font-size: 1em;
+        margin-top: 2em;
+    }
+    .cardContainer{
+        height: 22em;
+        width: 20em;
+        padding: 2em 1.8em;
+    }
+    .cardPara{
+        font-size: 1em;
+    }
+    .paraDiv{
+        height: 7em;
+    }
+}

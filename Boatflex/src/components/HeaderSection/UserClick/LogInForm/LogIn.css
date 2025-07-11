@@ -1,0 +1,209 @@
+.boxParent {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+.formContainer {
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 680px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+  }
+.crossIcn{
+    margin: 5px;
+}
+#cross{
+    font-size: 23px;
+}
+#cross:hover{
+    cursor: pointer;
+}
+#logIn{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+#logBottom{
+    font-size: 20px;
+    color: rgba(20,20,20,0.7);
+    margin-bottom: 30px;
+}
+.labelTxt{
+    font-size: 18px;
+    font-weight: 600;
+}
+.inpField{
+    height: 40px;
+    width: 610px;
+    border: 1px solid rgba(120,120,120,0.3);
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+#conBtn{
+    padding: 14px 27px;
+    background-color: rgb(96, 26, 245);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 470px;
+    margin-bottom: 20px;
+}
+#conBtn:hover{
+    cursor: pointer;
+    background-color: rgb(71, 15, 238);
+
+}
+.line{
+    border: 1px solid black;
+    width: 300px;
+    height: 1px;
+}
+hr{
+    width: 275px;
+    height: 1px;
+}
+.partition{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#orUseTxt{
+    margin: 0px 10px;
+    color: rgba(120,120,120,0.8);
+}
+.brandBtn{
+   padding: 15px 91px;
+   border: 1px solid rgba(120,120,120,0.3);
+   border-radius: 7px;
+   font-size: 17px;
+   font-weight: 600;
+   margin: 0px 12px;
+   background-color: rgba(210,210,210,0.2);
+}
+#facebookBtn{
+    padding: 15px 240px;
+    margin: 0px 12px;
+}
+#appleBtn{
+    margin-left: 47px;
+}
+.brandBtn:hover{
+    cursor: pointer;
+    background-color: rgba(190,190,190,0.5);
+}
+.brandIcn{
+    margin-right: 10px;
+}
+
+@media(max-width:700px) and (min-width:530px){
+    .boxParent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        background-color: rgba(0, 0, 0, 0.3); 
+    }
+    .formContainer {
+        width: 500px;
+        padding: 30px;
+      }
+      #logBottom{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .labelTxt{
+        font-size: 16px;
+    }
+    .inpField{
+        height: 40px;
+        width: 440px;
+    }
+    #conBtn{
+        font-size: 16px;
+        margin-left: 300px;
+    }
+    .brandBtn{
+        padding: 15px 45px;
+     }
+     #facebookBtn{
+        padding: 15px 150px;
+        margin: 0px 12px;
+    }
+}
+@media(max-width:529px){
+    .boxParent {
+        display: inline;
+    }
+    .formContainer {
+        width: 380px;
+        padding: 15px;
+        border-radius: 0px;
+        max-height: 100vh;
+      }
+      #logBottom{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .labelTxt{
+        font-size: 16px;
+    }
+    .inpField{
+        height: 35px;
+        width: 315px;
+    }
+    #conBtn{
+        font-size: 16px;
+        margin-left: 200px;
+    }
+    .brandBtn{
+        padding: 12px 24px;
+     }
+     #facebookBtn{
+        padding: 12px 105px;
+        margin: 0px 12px;
+    }
+}
+@media(max-width:350px){
+    .boxParent {
+        display: inline;
+    }
+    .formContainer {
+        width: 100vw;
+        padding: 15px;
+        border-radius: 0px;
+        max-height: 100vh;
+      }
+      #logBottom{
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .labelTxt{
+        font-size: 16px;
+    }
+    .inpField{
+        height: 35px;
+        width: 310px;
+    }
+    #conBtn{
+        font-size: 16px;
+        margin-left: 180px;
+    }
+    .brandBtn{
+        padding: 12px 15px;
+     }
+     #facebookBtn{
+        padding: 12px 90px;
+        margin: 0px 12px;
+    }
+}

@@ -1,0 +1,260 @@
+.footerSec{
+    margin-top: 8em;
+    padding: 5% 12%;
+    width: 100%;
+    background-color: rgba(19, 17, 17, 0.9);
+    height: 37em;
+    display: inline-block;
+}
+.hiddenDiv{
+    margin-top: 8em;
+    padding: 5% 12%;
+    width: 100%;
+    background-color: rgba(19, 17, 17, 0.9);
+    height: 37em;
+    display: none;
+}
+.footerAbove{
+    display: flex;
+}
+.firstCol{
+    display: flex;
+    flex-direction: column;
+}
+#footerHead{
+    font-size: 4em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+#appBtn{
+    margin-bottom: 3em;
+}
+.lastCol{
+    margin-left: 12em;
+    width: 60em;
+    height: 18em;
+}
+table{
+    height: 100%;
+    width: 100%;
+    text-align: start;
+    color: #fff;
+}
+th{
+    text-align: start;
+    font-size: 2em;
+}
+td{
+    font-size: 1.3em;
+}
+#gpImg{
+    border-radius: 15px;
+}
+#footerHead, td:hover{
+    cursor: pointer;
+}
+td,th{
+    padding-right: 2em;
+}
+.footIcns{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.footImg{
+    margin-right: 20px;
+    height: 45px;
+}
+.mailImgDiv{
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #bbbbc3;
+}
+#mailImg{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+.footImg:hover{
+    cursor: pointer;
+}
+@media (max-width:1420px) and (min-width:1200px){
+    .footerSec{
+        margin-top: 8em;
+        padding: 7% 7%;
+        width: 100%;
+        background-color: rgba(19, 17, 17, 0.9);
+        height: 37em;
+    }
+    .lastCol{
+        margin-left: 5em;
+        width: 65em;
+        height: 20em;
+    }
+    #footerHead{
+        font-size: 4em;
+        margin-bottom: 1em;
+    }
+    #appBtn{
+        margin-bottom: 3em;
+    }
+    th{
+        font-size: 1.7em;
+    }
+    td{
+        font-size: 1.2em;
+    }
+    td,th{
+        padding-right: 2em;
+    }
+}
+@media (max-width:1199px) and (min-width:990px){
+    .footerSec{
+        margin-top: 8em;
+        padding: 7% 7%;
+        width: 100%;
+        background-color: rgba(19, 17, 17, 0.9);
+        height: 65em;
+    }
+    .lastCol{
+        margin-left: 5em;
+        width: 65em;
+        height: 20em;
+    }
+    #footerHead{
+        font-size: 4em;
+        margin-bottom: 1em;
+    }
+    #appBtn{
+        margin-bottom: 3em;
+    }
+    th{
+        font-size: 1.7em;
+    }
+    td{
+        font-size: 1.2em;
+    }
+    td,th{
+        padding-right: 2em;
+    }
+}
+@media (max-width:989px) and (min-width:770px){
+    .footerSec{
+        margin-top: 8em;
+        padding: 10% 3%;
+        height: 65em;
+    }
+    .lastCol{
+        margin-left: 4em;
+        width: 40em;
+        height: 20em;
+    }
+    #footerHead{
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+    #appBtn{
+        margin-bottom: 3em;
+    }
+    th{
+        font-size: 1.6em;
+    }
+    td{
+        font-size: 1.2em;
+    }
+    td,th{
+        padding-right: 1.5em;
+    }
+    .footIcns{
+        margin-top: 3em;
+    }
+}
+@media (max-width:769px){
+    .footerSec{
+        display: none;
+        width: 100%;
+    }
+    .hiddenDiv{
+        display: flex;
+        margin-top: 8em;
+        padding: 12% 0%;
+        width: 100%;
+        background-color: rgba(19, 17, 17, 0.9);
+        height: 65em;
+        flex-direction: column;
+        }
+    .footerAbove{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footerHead{
+        font-size: 3em;
+        margin-bottom: 0.7em;
+        color: #fff;
+    }
+    #appBtn{
+        margin-bottom: 2em;
+    }
+    .lastCol{
+        margin-left: 0em;
+        width: 100%;
+        height: 35em;
+    }
+    table{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    th{
+        text-align: center;
+        font-size: 2em;
+    }
+    td{
+        font-size: 1em;
+    }
+    #gpImg{
+        border-radius: 15px;
+    }
+    #footerHead, td:hover{
+        cursor: pointer;
+    }
+    td,th{
+        padding-right: 0em;
+    }
+    .footIcns{
+        display: flex;
+        justify-content: center;
+        margin-top: 5em;
+    }
+    .footImg{
+        margin-right: 20px;
+        height: 45px;
+    }
+    .mailImgDiv{
+        height: 42px;
+        width: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #bbbbc3;
+    }
+    #mailImg{
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+    }
+    .footImg:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,194 @@
+.nextTripTxt{
+    margin-top: 25em;
+    margin-bottom: 4em;
+}
+.nextTripSection{
+    width: 100vw;
+}
+#nextTripHead{
+    margin-left: 10%;
+    font-size: 2.7em;
+    margin-bottom: 0.6em;
+}
+#nextTripSubHead{
+    margin-left: 10%;
+    font-size: 1.8em;
+    color: rgba(0,0,0,0.5);
+}
+.rowOne{
+    width: 82.5em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.rowTwo{
+    width: 82.5em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.nextTripCards{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+@media(max-width:1450px) and (min-width:1200px){
+    .nextTripTxt{
+        margin-top: 23em;
+        margin-bottom: 4em;
+    }
+    #nextTripHead{
+        font-size: 2.5em;
+    }
+    .nextTripSection{
+        margin-left: 0%;
+    }
+    #nextTripSubHead{
+        font-size: 1.6em;
+        color: rgba(0,0,0,0.5);
+    }
+    .rowOne{
+        width: 68em;
+    }
+    .rowTwo{
+        width: 68em;
+    }
+}
+@media(max-width:1199px) and (min-width:990px){
+    .nextTripTxt{
+        margin-top: 17em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        margin-left: 0%;
+    }
+    #nextTripHead{
+        font-size: 2.3em;
+    }
+    #nextTripSubHead{
+        font-size: 1.6em;
+    }
+    .rowOne{
+        width: 55em;
+    }
+    .rowTwo{
+        width: 55em;
+    }
+}
+
+@media(max-width:989px) and (min-width:830px){
+    .nextTripTxt{
+        margin-top: 7em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        margin-left: 0;
+        width: 93vw;
+    }
+    #nextTripHead{
+        font-size: 2em;
+    }
+    #nextTripSubHead{
+        font-size: 1.3em;
+    }
+    .rowOne{
+        width: 47em;
+    }
+    .rowTwo{
+        width: 47em;
+    }
+}
+@media(max-width:829px) and (min-width:770px){
+    .nextTripTxt{
+        margin-top: 7em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        margin-left: 0;
+        width: 92vw;
+    }
+    #nextTripHead{
+        font-size: 2em;
+    }
+    #nextTripSubHead{
+        font-size: 1.3em;
+    }
+    .rowOne{
+        width: 43em;
+    }
+    .rowTwo{
+        width: 43em;
+    }
+}
+@media(max-width:769px) and (min-width:600px){
+    .nextTripTxt{
+        margin-top: 7em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        margin-left: 0;
+        width: 35em;
+    }
+    #nextTripHead{
+        font-size: 1.5em;
+    }
+    #nextTripSubHead{
+        font-size: 1em;
+    }
+    .rowOne{
+        width: 33.5em;
+        flex-direction: column;
+    }
+    .rowTwo{
+        width: 33.5em;
+        flex-direction: column;
+    }
+}
+@media(max-width:599px){
+    .nextTripTxt{
+        margin-top: 7em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        width: 100vw;
+    }
+    #nextTripHead{
+        font-size: 1.2em;
+    }
+    #nextTripSubHead{
+        font-size: 0.8em;
+    }
+    .rowOne{
+        width: 22em;
+        flex-direction: column;
+    }
+    .rowTwo{
+        width: 22em;
+        flex-direction: column;
+    }
+}
+@media(max-width:350px){
+    .nextTripTxt{
+        margin-top: 7em;
+        margin-bottom: 4em;
+    }
+    .nextTripSection{
+        width: 100vw;
+    }
+    #nextTripHead{
+        font-size: 1.2em;
+    }
+    #nextTripSubHead{
+        font-size: 0.8em;
+    }
+    .rowOne{
+        width: 22em;
+        flex-direction: column;
+    }
+    .rowTwo{
+        width: 22em;
+        flex-direction: column;
+    }
+}

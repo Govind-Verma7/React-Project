@@ -1,0 +1,33 @@
+#srchBox{
+    display: flex;
+    padding: 0.25em 0.4em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+}
+#para{
+font-size: 75%;
+color: rgba(50,50,50,0.9);
+margin-right: 1.5em;
+margin-left: 0.5em;
+text-transform: capitalize;
+}
+.icn{
+height: 1.8rem;
+width: 1.8rem;
+border-radius: 50%;
+background-color: rgb(75, 2, 212);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#srchIcn{
+    font-size: 0.7rem;
+}
+@media (max-width: 1100px){
+    #srchBox{
+        display: none;
+    }
+}

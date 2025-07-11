@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(100, 208, 247), rgb(223, 236, 241));
+  overflow: hidden;
+}

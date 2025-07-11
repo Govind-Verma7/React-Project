@@ -1,0 +1,118 @@
+.secContainer{
+    display: none;
+}
+.thirdContainer{
+    display: none;
+}
+#review{
+    margin-left: 10%;
+    margin-top: 4em;
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+}
+#reviewTxt{
+    margin-left: 10%;
+    margin-bottom: 2.5em;
+    font-size: 1.7em;
+    color: rgba(0,0,0,0.4);
+}
+.cardBox{
+    display: flex;
+    justify-content: center;
+    gap: 1.3em;
+}
+.prevNxt{
+    display: flex;
+    justify-content:center;
+    margin-top: 4em;
+}
+.arrow{
+    height: 3em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+#left{
+    margin-right: 0.7em;
+}
+#right{
+ margin-left: 0.7em;
+}
+.arrow:hover{
+    cursor: pointer;;
+}
+.carousel-container {
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+.cardBox {
+    transition: transform 1s ease-in-out;
+    will-change: transform;
+}
+@media (max-width:1200px) and (min-width:770px){
+    #review{
+        font-size: 2em;
+    }
+    #reviewTxt{
+        font-size: 1.2em;
+    }
+    .firstContainer{
+        display: none;
+    }
+    .reviewCards{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secContainer{
+        display: inline;
+    }
+}
+@media (max-width:769px) and (min-width:570px){
+    #review{
+        font-size: 1.6em;
+    }
+    #reviewTxt{
+        font-size: 0.9em;
+    }
+    .firstContainer{
+        display: none;
+    }
+    .secContainer{
+        display: inline;
+    }
+    .reviewCards{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:569px){
+    .cardBox{
+        margin-left: 0;
+    }
+    #review{
+        font-size: 1.6em;
+    }
+    #reviewTxt{
+        font-size: 0.8em;
+    }
+    .firstContainer{
+        display: none;
+    }
+    .thirdContainer{
+        display: inline;
+    }
+    .reviewCards{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

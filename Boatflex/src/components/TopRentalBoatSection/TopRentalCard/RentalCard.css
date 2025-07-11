@@ -1,0 +1,257 @@
+.topCard{
+    height: 31.5em;
+    width: 25em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+}
+#img{
+    height: 21em;
+    width: 25em;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.txtDiv{
+    margin-top: 17px;
+    margin-left: 5px;
+    margin-bottom: 17px;
+}
+#cHead{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    color: rgba(0,0,0,0.9);
+}
+#rajLoc{
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    color: rgba(0,0,0,0.7);
+}
+#rajPrice{
+    font-size: 1.1em;
+    color: rgba(0,0,0,0.7);
+}
+#priceTxt{
+    color: rgba(0,0,0,0.9);
+    font-weight: bold;
+}
+#cardBreaker{
+    width: 25em;
+}
+
+.heartImg{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1.3em;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: 2em;
+    background-color: #fff;
+    right: 2em;
+}
+
+@media(max-width:1420px) and (min-width:1300px){
+    .topCard{
+        height: 31.5em;
+        width: 20em;
+    }
+    #img{
+        height: 21em;
+        width: 20em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.8em;
+    }
+    #rajLoc{
+        font-size: 1.1em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 1.1em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 20em;
+    }
+}
+@media(max-width:1299px) and (min-width:1200px){
+    .topCard{
+        height: 31em;
+        width: 18em;
+    }
+    #img{
+        height: 20em;
+        width: 18em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.8em;
+    }
+    #rajLoc{
+        font-size: 1.1em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 1.1em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 18em;
+    }
+}
+
+@media(max-width:1199px) and (min-width:1000px){
+    .topCard{
+        height: 26.3em;
+        width: 15em;
+    }
+    #img{
+        height: 17em;
+        width: 15em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.6em;
+    }
+    #rajLoc{
+        font-size: 0.7em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 0.8em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 15em;
+    }
+}
+@media(max-width:999px) and (min-width:750px){
+    .topCard{
+        height: 26em;
+        width: 16em;
+    }
+    #img{
+        height: 17em;
+        width: 16em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.7em;
+    }
+    #rajLoc{
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 1em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 16em;
+    }
+}
+@media(max-width:749px) and (min-width:590px){
+    .topCard{
+        height: 26em;
+        width: 12.5em;
+    }
+    #img{
+        height: 17em;
+        width: 12.5em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.55em;
+    }
+    #rajLoc{
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 1em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 12.5em;
+    }
+}
+
+@media(max-width:589px){
+    .topCard{
+        height: 26em;
+        width: 16em;
+    }
+    #img{
+        height: 17em;
+        width: 16em;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txtDiv{
+        margin-top: 17px;
+        margin-left: 5px;
+        margin-bottom: 17px;
+    }
+    #cHead{
+        font-size: 0.7em;
+    }
+    #rajLoc{
+        font-size: 0.9em;
+        margin-bottom: 3px;
+    }
+    #rajPrice{
+        font-size: 1em;
+    }
+    #priceTxt{
+        color: rgba(0,0,0,0.9);
+    }
+    #cardBreaker{
+        width: 16em;
+    }
+}

@@ -1,0 +1,170 @@
+.parentSignIn{
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+.signContainer{
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 35em;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+.crossSign{
+    margin: 5px;
+}
+#crossI{
+    font-size: 23px;
+}
+#crossI{
+    cursor: pointer;
+}
+#finishTxt{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 2em;
+}
+.nameSpan{
+    display: flex;
+}
+.nameLabel{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.formInp{
+    height: 2.8em;
+    width: 16.5em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 0px 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.lNameDiv{
+    margin-left: 3em;
+}
+.formNum{
+    width: 37em;
+}
+.agreement{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.agreeCheck{
+    margin-right: 10px;
+    zoom: 1.5;
+}
+#agreementOne, #agreementTwo{
+    font-size: 1.1em;
+    color: rgba(80, 80, 80, 0.8);
+}
+#contBtn{
+    padding: 14px 27px;
+    background-color: rgb(96, 26, 245);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 75%;
+    margin-bottom: 2%;
+}
+#contBtn:hover{
+    cursor: pointer;
+    background-color: rgb(71, 15, 238);
+
+}
+.agreeCheck:hover{
+    cursor: pointer;
+}
+
+@media(max-width:600px){
+    .parentSignIn{
+        display: inline;
+    }
+    .signContainer{
+        max-height: 100vh;
+        width: 23.4em;
+        padding: 1em;
+        border-radius: 0px;
+        box-shadow: 0 0 0 ;
+    }
+    .nameLabel{
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .formInp{
+        height: 2em;
+        width: 11em;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 0px 2px;
+    }
+    .formNum{
+        width: 25em;
+    }
+    #agreementOne, #agreementTwo{
+        font-size: 1em;
+        color: rgba(80, 80, 80, 0.8);
+    }
+    #contBtn{
+        padding: 14px 27px;
+        background-color: rgb(96, 26, 245);
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 60%;
+        margin-bottom: 2%;
+    }
+}
+@media(max-width:350px){
+    .parentSignIn{
+        display: inline;
+    }
+    .signContainer{
+        max-height: 100vh;
+        width: 100vw;
+        padding: 1em;
+        border-radius: 0px;
+        box-shadow: 0 0 0 ;
+    }
+    .nameLabel{
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .formInp{
+        height: 2em;
+        width: 10em;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        padding: 0px 2px;
+    }
+    .formNum{
+        width: 23.5em;
+    }
+    #agreementOne, #agreementTwo{
+        font-size: 1em;
+        color: rgba(80, 80, 80, 0.8);
+    }
+    #contBtn{
+        padding: 14px 27px;
+        background-color: rgb(96, 26, 245);
+        color: #fff;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 60%;
+        margin-bottom: 2%;
+    }
+}

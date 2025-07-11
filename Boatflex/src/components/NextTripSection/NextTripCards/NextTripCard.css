@@ -1,0 +1,213 @@
+.nextTripCardDiv {
+    display: flex;
+    width: 40em;
+    border-radius: 20px;
+    height: 21.3em;
+    box-shadow: 0 0 5px black;
+    justify-content: center;
+    align-items: center;
+}
+
+#tripImg {
+    height: 21.5em;
+    width: 20em;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.cardTxt {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 28px;
+}
+
+#cardTxtHead {
+    font-size: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+#cardTxtSubHead {
+    font-size: 1.6em;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: justify;
+    text-align-last: center;
+
+}
+.nextTripCardDiv:hover{
+    cursor: pointer;
+}
+@media(max-width:1450px) and (min-width:1200px){
+    .nextTripCardDiv {
+        width: 33em;
+        height: 21.3em;
+    }
+    #tripImg {
+        height: 21.3em;
+        width: 17em;
+    }
+    .cardTxt {
+        width: 16em;
+        padding: 0 28px;
+    }
+    #cardTxtHead {
+        font-size: 1.5em;
+    }
+    #cardTxtSubHead {
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width:1199px) and (min-width:990px){
+    .nextTripCardDiv {
+        width: 26em;
+        height: 18em;
+    }
+    #tripImg {
+        height: 18em;
+        width: 14em;
+    }
+    .cardTxt {
+        width: 14em;
+        padding: 0 25px;
+    }
+    #cardTxtHead {
+        font-size: 1.2em;
+    }
+    #cardTxtSubHead {
+        font-size: 1em;
+    }
+}
+@media(max-width:989px) and (min-width:830px){
+    .nextTripCardDiv {
+        width: 22.6em;
+        height: 16em;
+    }
+    #tripImg {
+        height: 16em;
+        width: 12em;
+    }
+    .cardTxt {
+        width: 12em;
+        padding: 0 16px;
+    }
+    #cardTxtHead {
+        font-size: 1em;
+    }
+    #cardTxtSubHead {
+        font-size: 0.9em;
+    }
+}
+@media(max-width:829px) and (min-width:770px){
+    .nextTripCardDiv {
+        width: 20.5em;
+        height: 14em;
+    }
+    #tripImg {
+        height: 14.3em;
+        width: 10em;
+    }
+    .cardTxt {
+        width: 11em;
+        padding: 0 14px;
+    }
+    #cardTxtHead {
+        font-size: 1em;
+    }
+    #cardTxtSubHead {
+        font-size: 0.9em;
+    }
+}
+@media(max-width:769px) and (min-width:600px){
+    .nextTripCardDiv {
+        display: flex;
+        flex-direction: column;
+        width: 33.5em;
+        border-radius: 0px;
+        height: 27em;
+        box-shadow: 0 0 0;
+    }
+    #tripImg {
+        height: 18em;
+        width: 33.5em;
+        object-fit: cover;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .cardTxt {
+        width: 17em;
+        display: flex;
+        padding: 15px 20px;
+    }
+    #cardTxtHead {
+        font-size: 1.3em;
+        margin-bottom: 0.8em;
+    }
+    
+    #cardTxtSubHead {
+        font-size: 0.8em;
+        color: rgba(0, 0, 0, 0.8);;
+    
+    }
+}
+@media(max-width:599px){
+    .nextTripCardDiv {
+        display: flex;
+        flex-direction: column;
+        width: 22em;
+        border-radius: 0px;
+        height: 25em;
+        box-shadow: 0 0 0;
+    }
+    #tripImg {
+        height: 15em;
+        width: 22em;
+        object-fit: cover;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .cardTxt {
+        width: 14em;
+        display: flex;
+        padding: 12px 17px;
+    }
+    #cardTxtHead {
+        font-size: 1.2em;
+        margin-bottom: 0.8em;
+    }
+    
+    #cardTxtSubHead {
+        font-size: 0.7em;
+        color: rgba(0, 0, 0, 0.8);;
+    }
+}
+@media(max-width:350px){
+    .nextTripCardDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        border-radius: 0px;
+        height: 25em;
+        box-shadow: 0 0 0;
+    }
+    #tripImg {
+        height: 15em;
+        width: 20em;
+        object-fit: cover;
+        border-radius: 20px 20px 20px 20px;
+    }
+    .cardTxt {
+        width: 14em;
+        display: flex;
+        padding: 12px 17px;
+    }
+    #cardTxtHead {
+        font-size: 1.2em;
+        margin-bottom: 0.8em;
+    }
+    
+    #cardTxtSubHead {
+        font-size: 0.7em;
+        color: rgba(0, 0, 0, 0.8);;
+    }
+}

@@ -1,0 +1,329 @@
+.rentalContainerThree, .rentalContainerTwo{
+    display: none;
+}
+.topComp{
+    width: 90em;
+    height: 55em;
+}
+#topHeading{
+    margin-left: 10%;
+    font-size: 2.7em;
+    margin-bottom: 0.6em;
+    margin-top: 3.7em;
+}
+#topPara{
+    margin-left: 10%;
+    font-size: 1.7em;
+    color: rgba(0,0,0,0.4);
+}
+.twoBtn{
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.bottomBtns{
+   height: 4em;
+   display: flex;
+   align-items: center;
+   margin-left: 1em;
+   position: relative;
+}
+#starBtn{
+    margin-right: 0.6em;
+}
+.rentalCards{
+    display: flex;
+    gap: 2.2em;
+}
+.prevNxtt{
+    width: 100vw;
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#boatBtn{
+    position: absolute;
+    right: 1em;
+}
+.rentalCards {
+    transition: transform 0.3s ease-in-out;
+  }
+.cardSection:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.cardSection{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.arrow1{
+    height: 3em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+#left1{
+    margin-right: 0.7em;
+}
+#right1{
+ margin-left: 0.7em;
+}
+.arrow1:hover{
+    cursor: pointer;;
+}
+
+@media (max-width:1420px) and (min-width:1300px){
+    .topComp{
+        width: 70em;
+        height: 55em;
+    }
+    #topHeading{
+        margin-left: 8%;
+        font-size: 2.7em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+    }
+    #topPara{
+        margin-left: 8%;
+        font-size: 1.7em;
+    }
+    .rentalCards{
+        gap: 2.2em;
+    }
+}
+
+@media (max-width:1299px) and (min-width:1200px){
+    .topComp{
+        width: 65em;
+        height: 55em;
+    }
+    #topHeading{
+        margin-left: 8%;
+
+        font-size: 2.7em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+    }
+    #topPara{
+        margin-left: 8%;
+
+        font-size: 1.7em;
+    }
+    .rentalCards{
+        gap: 2.1em;
+    }
+    .prevNxtt{
+        width: 69em;
+        height: 40em;
+        display: flex;
+    }
+}
+
+@media (max-width:1199px) and (min-width:1000px){
+    .topComp{
+        width: 53em;
+        height: 50em;
+    }
+    #topHeading{
+        margin-left: 8%;
+        font-size: 2.5em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+    }
+    #topPara{
+        margin-left: 8%;
+
+        font-size: 1.5em;
+    }
+    .rentalCards{
+        gap: 2em;
+    }
+    .prevNxtt{
+        width: 57em;
+        height: 35em;
+        display: flex;
+    }
+    .bottomBtns{
+        height: 4em;
+     }
+}
+
+@media (max-width:999px) and (min-width:750px){
+    .rentalContainerOne{
+        display: none;
+    }
+
+    .rentalContainerTwo{
+        display: inline;
+    }
+    .topComp{
+        width: 40em;
+        height: 45em;
+    }
+    #topHeading{
+        margin-left: 8%;
+        font-size: 2.3em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+    }
+    #topPara{
+        margin-left: 8%;
+
+        font-size: 1.2em;
+    }
+    .rentalCards{
+        gap: 2em;
+    }
+    .prevNxtt{
+        width: 42.5em;
+        height: 30em;
+        display: flex;
+    }
+    .bottomBtns{
+        height: 3em;
+     }
+}
+
+@media (max-width:749px) and (min-width:590px){
+    .rentalContainerOne{
+        display: none;
+    }
+
+    .rentalContainerTwo{
+        display: inline;
+    }
+    .topComp{
+        width: 31em;
+        height: 45em;
+    }
+    #topHeading{
+        margin-left: 8%;
+        font-size: 2.3em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+    }
+    #topPara{
+        margin-left: 8%;
+
+        font-size: 1.2em;
+    }
+    .rentalCards{
+        gap: 2em;
+    }
+    .prevNxtt{
+        width: 34em;
+        height: 30em;
+        display: flex;
+    }
+    .bottomBtns{
+        height: 3em;
+     }
+}
+
+@media (max-width:589px){
+    .cardSection{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .rentalContainerOne{
+        display: none;
+    }
+
+    .rentalContainerThree{
+        display: inline;
+    }
+    .topComp{
+        width: 22em;
+        height: 45em;
+    }
+    #topHeading{
+        font-size: 2em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+        text-align: center;
+    }
+    #topPara{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .rentalCards{
+        gap: 2em;
+    }
+    .prevNxtt{
+        width: 29em;
+        height: 30em;
+        display: flex;
+        justify-content: center;
+    }
+    .bottomBtns{
+        height: 3em;
+     }
+     .arrow1{
+        height: 2.5em;
+        width: 2.5em;
+    }
+    #left1{
+        margin-right: 0.7em;
+    }
+    #right1{
+     margin-left: 0.7em;
+    }
+}
+@media (max-width:350px){
+    .cardSection{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .rentalContainerOne{
+        display: none;
+    }
+
+    .rentalContainerThree{
+        display: inline;
+    }
+    .topComp{
+        width: 100vw;
+        height: 45em;
+    }
+    #topHeading{
+        font-size: 2em;
+        margin-bottom: 0.6em;
+        margin-top: 3.7em;
+        text-align: center;
+    }
+    #topPara{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .rentalCards{
+        gap: 2em;
+    }
+    .prevNxtt{
+        width: 100vw;
+        height: 30em;
+        display: flex;
+        justify-content: center;
+    }
+    .bottomBtns{
+        height: 3em;
+     }
+     .arrow1{
+        height: 2em;
+        width: 2em;
+    }
+    #left1{
+        margin-right: 0.5em;
+    }
+    #right1{
+     margin-left: 0.5em;
+    }
+}

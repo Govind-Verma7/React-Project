@@ -1,0 +1,362 @@
+.rentShareSection{
+    margin-top: 15em;
+    margin-left: 10%;
+}
+.rentSection{
+    width: 83em;
+    display: flex;
+    margin-bottom: 5em;
+}
+.rentBoatTxt{
+    padding-left: 5em;
+}
+#purpleRentBoat{
+    color: rgb(86, 1, 191);
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-left: 0;
+    margin-bottom: 0em;
+}
+.rentShareHead{
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+.rentBoatPara{
+    font-size: 1.7em;
+    width: 22em;
+    margin-left: 0;
+    margin-bottom: 0.7em;
+    color: rgba(10,10,10,0.9);
+}
+.rentBoatImg{
+    border-radius: 20px;
+    height: 25em;
+    width: 38em;
+}
+.shareSection{
+    width: 83em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.shareBoatTxt{
+    padding-right: 5em;
+    width: 43em;
+}
+#greenShareBoat{
+  color: rgb(8, 157, 99);
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-left: 0;
+  margin-bottom: 0.7em;
+}
+#shareImg{
+    margin-right: 2em;
+}
+@media (max-width:1420px) and (min-width:1200px){
+    .rentShareSection{
+        margin-top: 11em;
+        margin-left: 7%;
+    }
+    .rentSection{
+        width: 68em;
+    }
+    .rentBoatTxt{
+        padding-left: 4em;
+    }
+    #purpleRentBoat{
+        font-size: 1.4em;
+    }
+    .rentShareHead{
+        font-size: 2em;
+        width: 13em;
+    }
+    .rentBoatPara{
+        font-size: 1.5em;
+        width: 20.5em;
+    }
+    .rentBoatImg{
+        border-radius: 20px;
+        height: 23em;
+        width: 34em;
+    }
+    .shareSection{
+        width: 68em;
+    }
+    .shareBoatTxt{
+        padding-right: 2em;
+        width: 40em;
+    }
+    #greenShareBoat{
+        font-size: 1.4em;
+      }
+      #shareImg{
+        margin-right: 0em;
+    }
+}
+@media (max-width:1199px) and (min-width:990px){
+    .rentShareSection{
+        margin-top: 9em;
+        margin-left: 7%;
+    }
+    .rentSection{
+        width: 56.5em;
+    }
+    .rentBoatTxt{
+        padding-left: 3.5em;
+    }
+    #purpleRentBoat{
+        font-size: 1.2em;
+    }
+    .rentShareHead{
+        font-size: 1.3em;
+        width: 13em;
+    }
+    .rentBoatPara{
+        font-size: 1.3em;
+        width: 18.7em;
+    }
+    .rentBoatImg{
+        border-radius: 20px;
+        height: 20em;
+        width: 28em;
+    }
+    .shareSection{
+        width: 56.5em;
+    }
+    .shareBoatTxt{
+        padding-right: 1em;
+        width: 40em;
+    }
+    #greenShareBoat{
+        font-size: 1.2em;
+      }
+      #shareImg{
+        margin-right: 1em;
+    }
+}
+@media (max-width:989px) and (min-width:770px){
+    .rentShareSection{
+        width: 100vw;
+        margin-top: 9em;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rentSection{
+        width: 39em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .rentBoatTxt{
+        padding-left: 0em;
+        margin-top: 2em;
+    }
+    #purpleRentBoat{
+        font-size: 1.7em;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+
+    }
+    .rentShareHead{
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+    .rentBoatPara{
+        font-size: 1.3em;
+        width: 30em;
+    }
+    .rentBoatImg{
+        height: 25em;
+        width: 38em;
+    }
+    .shareSection{
+        width: 39em;
+        flex-direction: column;
+    }
+    .shareBoatTxt{
+        padding-right: 5em;
+        width: 43em;
+        margin-top: 2em;
+    }
+    #greenShareBoat{
+      font-size: 1.7em;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+    #shareImg{
+        margin-right: 0em;
+    }
+}
+@media (max-width:769px) and (min-width:600px){
+    .rentShareSection{
+        width: 100vw;
+        margin-top: 4em;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rentSection{
+        width: 34em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .rentBoatTxt{
+        padding-left: 0em;
+        margin-top: 2em;
+    }
+    #purpleRentBoat{
+        font-size: 1.6em;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+
+    }
+    .rentShareHead{
+        font-size: 2em;
+        margin-bottom: 0.3em;
+    }
+    .rentBoatPara{
+        font-size: 1.3em;
+        width: 26em;
+    }
+    .rentBoatImg{
+        height: 22em;
+        width: 33em;
+    }
+    .shareSection{
+        width: 34em;
+        flex-direction: column;
+    }
+    .shareBoatTxt{
+        padding-right: 5em;
+        width: 34em;
+        margin-top: 2em;
+    }
+    #greenShareBoat{
+      font-size: 1.6em;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+    #shareImg{
+        margin-right: 0em;
+    }
+}
+@media (max-width:599px){
+    .rentShareSection{
+        width: 100vw;
+        margin-top: 4em;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rentSection{
+        width: 22em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .rentBoatTxt{
+        padding-left: 0em;
+        margin-top: 2em;
+    }
+    #purpleRentBoat{
+        font-size: 1.6em;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+    }
+    .rentShareHead{
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+        width: 14.5em;
+    }
+    .rentBoatPara{
+        font-size: 1.1em;
+        width: 20em;
+    }
+    .rentBoatImg{
+        height: 18em;
+        width: 22em;
+    }
+    .shareSection{
+        width: 22em;
+        flex-direction: column;
+    }
+    .shareBoatTxt{
+        padding-right: 5em;
+        width: 22em;
+        margin-top: 2em;
+    }
+    #greenShareBoat{
+      font-size: 1.6em;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+    #shareImg{
+        margin-right: 0em;
+    }
+}
+@media (max-width:350px){
+    .rentShareSection{
+        width: 100vw;
+        margin-top: 4em;
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rentSection{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .rentBoatTxt{
+        padding-left: 0em;
+        margin-top: 2em;
+    }
+    #purpleRentBoat{
+        font-size: 1.6em;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        margin-left: 2px;
+    }
+    .rentShareHead{
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+        width: 14.5em;
+        margin-left: 2px;
+    }
+    .rentBoatPara{
+        margin-left: 2px;
+        font-size: 1.1em;
+        width: 20em;
+    }
+    .rentBoatImg{
+        height: 18em;
+        width: 20em;
+        margin-left: 10px;
+    }
+    .shareSection{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .shareBoatTxt{
+        margin-left: 2px;
+        padding-right: 5em;
+        width: 22em;
+        margin-top: 2em;
+    }
+    #greenShareBoat{
+      font-size: 1.6em;
+      font-weight: 500;
+      margin-bottom: 0.5em;
+    }
+    #shareImg{
+        margin-right: 0em;
+    }
+}

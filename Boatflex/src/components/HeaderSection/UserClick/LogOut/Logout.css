@@ -1,0 +1,101 @@
+.parentLogOut{
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logOutConfirmation{
+height: 40%;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+#confirmation{
+    font-size: 4rem;
+}
+.confiramtionPara{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.lgOutBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.logBtn{
+    height: 3em;
+    width: 6em;
+    font-size: 1em;
+}
+
+@media(max-width: 1399px) and (min-width: 1050px){
+    #confirmation{
+        font-size: 3rem;
+    }
+    .logBtn{
+        height: 2.5em;
+        width: 5em;
+        font-size: 1em;
+    }
+}
+@media(max-width: 1049px) and (min-width:700px){
+    #confirmation{
+        font-size: 2rem;
+    }
+    .logBtn{
+        height: 2.5em;
+        width: 5em;
+        font-size: 1em;
+    }
+}
+@media(max-width: 699px) and (min-width: 525px){
+    #confirmation{
+        font-size: 1.5rem;
+    }
+    .logBtn{
+        height: 2em;
+        width: 4em;
+        font-size: 1em;
+    }
+}
+@media(max-width: 524px) and (min-width: 350px){
+    .logOutConfirmation{
+        height:30%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    #confirmation{
+        font-size: 1.5rem;
+    }
+    .logBtn{
+        height: 1.5em;
+        width: 3em;
+        font-size: 1em;
+    }
+}
+@media(max-width: 349px){
+    .logOutConfirmation{
+        height:30%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    #confirmation{
+        font-size: 1rem;
+    }
+    .logBtn{
+        height: 1.5em;
+        width: 3em;
+        font-size: 1em;
+    }
+}

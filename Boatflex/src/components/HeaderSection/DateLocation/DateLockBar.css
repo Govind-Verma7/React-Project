@@ -1,0 +1,277 @@
+.DLContainer{
+height: 60%;
+width: 80%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+background-color: rgba(255,255,255,0.8);
+}
+.parent{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 15em;
+}
+#locInp{
+    height: 1%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inputOfLoc{
+    height: 2.7em;
+    width: 20em;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.inpIcn{
+    margin-right: 8px;
+    margin-left: 9px;
+    color: rgba(20,20,20,0.5);
+    font-size: 18px;
+}
+.inputWLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sameInp{
+    height: 2.7em;
+    width: 20em;
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+}
+input:focus{
+    outline: none;
+}
+#srchBtn{
+    padding: 0.8em 1.3em;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(96, 26, 245);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+#srchBtn:hover{
+    cursor: pointer;
+}
+#magIcn{
+    margin-right: 5px;
+}
+.txt{
+    font-size: 20px;
+}
+.sameInp:hover{
+    cursor: pointer;
+}
+@media (max-width: 1250px) and (min-width:1101px){
+#locInp{
+    height: 2em;
+    width: 15em;
+    background-color: white;
+    border-radius: 10px;
+}
+#inputOfLoc{
+    height: 2em;
+    width: 16em;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.sameInp{
+    height: 2.5em;
+    width: 15em;
+    border-radius: 10px;
+    border: none;
+    padding: 1em;
+}
+#srchBtn{
+    padding: 0.4em 0.5em;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(96, 26, 245);
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+}
+}
+@media (max-width: 1100px) and (min-width:601px){
+    .DLContainer{
+        height: 22em;
+        width: 36em;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.8);
+        padding-left: 1em;
+        }
+        .parent{
+            height: 28em;
+        }
+        #locInp{
+            height: 2.5em;
+            width: 35em;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #inputOfLoc{
+            height: 2em;
+            width: 40em;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .sameInp{
+            height: 3em;
+            width: 40em;
+            border-radius: 10px;
+            border: none;
+            padding: 1em;
+        }
+        #srchBtn{
+            padding: 0.6em 1em;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(96, 26, 245);
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+        }
+}
+@media (max-width:600px) and (min-width:500px){
+    .DLContainer{
+        height: 22em;
+        width: 25em;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.8);
+        padding-left: 0.5em;
+        }
+        .parent{
+            margin-right: 4em;
+            height: 25em;
+        }
+        #locInp{
+            height: 2.5em;
+            width: 24em;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #inputOfLoc{
+            height: 2em;
+            width: 42em;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .sameInp{
+            height: 3em;
+            width: 28.5em;
+            border-radius: 10px;
+            border: none;
+            padding: 1em;
+        }
+        #srchBtn{
+            padding: 0.5em 0.7em;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(96, 26, 245);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+        }
+}
+@media (max-width:499px) and (min-width:350px){
+    .DLContainer{
+        height: 22em;
+        width: 20em;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.8);
+        padding-left: 0.5em;
+        }
+        .parent{
+            margin-right: 1em;
+            height: 25em;
+        }
+        #locInp{
+            height: 2.3em;
+            width: 19em;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #inputOfLoc{
+            height: 2em;
+            width: 42em;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .sameInp{
+            height: 3em;
+            width: 22em;
+            border-radius: 10px;
+            border: none;
+            padding: 1em;
+        }
+        #srchBtn{
+            padding: 0.5em 0.7em;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(96, 26, 245);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+        }
+}
+@media (max-width:349px){
+    .DLContainer{
+        height: 22em;
+        width: 18em;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.8);
+        padding-left: 0.5em;
+        }
+        .parent{
+            margin-right: 1em;
+            height: 25em;
+        }
+        #locInp{
+            height: 2.3em;
+            width: 17em;
+            background-color: white;
+            border-radius: 10px;
+        }
+        #inputOfLoc{
+            height: 2em;
+            width: 42em;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .sameInp{
+            height: 3em;
+            width: 19.5em;
+            border-radius: 10px;
+            border: none;
+            padding: 1em;
+        }
+        #srchBtn{
+            padding: 0.5em 0.7em;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(96, 26, 245);
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+        }
+}

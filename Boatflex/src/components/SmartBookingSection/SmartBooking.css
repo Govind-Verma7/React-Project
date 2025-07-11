@@ -1,0 +1,154 @@
+#bookImg{
+    margin-top: 7%;
+    border-radius: 20px;
+    height: 25em;
+    width: 38em;
+}
+.secondContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+.smarBookTxt{
+    margin-top: 8%;
+    height: 23em;
+    width: 38.3em;
+}
+#rentBoatTxt{
+    font-size: 1.8em;
+    color: rgb(75, 2, 212);
+    margin-top: 0.5em;
+}
+#smartHead{
+    font-size: 2.7em;
+    margin: 0.3em 0px;
+    margin-bottom: 0.5em;
+}
+.largeTxt{
+    font-size: 1.6em;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+#smartBtn{
+    padding: 0.7em 1em;
+    font-size: 1.2em;
+    background-color: rgb(75, 2, 212);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    margin-top: 0.8em;
+}
+#smartBtn:hover{
+    cursor: pointer;
+    background-color: rgb(77, 4, 248);
+}
+@media(max-width:1300px) and (min-width:1120px){
+    #bookImg{
+        margin-top: 7%;
+        border-radius: 20px;
+        height: 25em;
+        width: 30em;
+    }
+}
+@media(max-width:1120px) and (min-width:601px){
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:700px) and (min-width:580px){
+    #bookImg{
+        height: 20em;
+        width: 30em;
+    }
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    #rentBoatTxt{
+        font-size: 1.5em;
+    }
+    #smartHead{
+        font-size: 2.3em;
+    }
+    .largeTxt{
+        font-size: 1.2em;
+    }
+    #smartBtn{
+        padding: 0.5em 0.7em;
+        font-size: 1em;
+    }
+    .smarBookTxt{
+        height: 23em;
+        width: 30em;
+    }
+}
+@media(max-width:579px) and (min-width:480px){
+    #bookImg{
+        height: 15em;
+        width: 22em;
+    }
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    #rentBoatTxt{
+        font-size: 1.2em;
+    }
+    #smartHead{
+        font-size: 2em;
+    }
+    .largeTxt{
+        font-size: 1em;
+    }
+    #smartBtn{
+        padding: 0.4em 0.6em;
+        font-size: 0.8em;
+    }
+    .smarBookTxt{
+        height: 20em;
+        width: 25em;
+        margin-left: 4em;
+    }
+}
+@media(max-width:479px){
+    #bookImg{
+        height: 15em;
+        width: 20em;
+
+    }
+    .secondContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    #rentBoatTxt{
+        font-size: 1em;
+        margin-left: 0;
+    }
+    #smartHead{
+        font-size: 1.6em;
+    }
+    .largeTxt{
+        margin-left: 0;
+        font-size: 0.8em;
+    }
+    #smartBtn{
+        padding: 0.4em 0.6em;
+        font-size: 0.8em;
+    }
+    .smarBookTxt{
+        height: 14.5em;
+        width: 20em;
+        margin-left: 0em;
+        margin-top: 0;
+
+    }
+}

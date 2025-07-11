@@ -1,0 +1,47 @@
+ul{
+    list-style-type: none;
+}
+.topUl{
+    padding-top: 0.5em;
+}
+.signComp{
+    display: flex;
+    text-decoration: none;
+    color: rgba(50,50,50,0.9);;
+}
+p{
+    margin-left: 0.9rem;
+}
+.signInCom{
+    width: 16em;
+    height: 12.5em;
+    padding: 0.8em;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    top: 80%;
+}
+li{
+    padding: 5px;
+    margin-left: 0.4em;
+    font-size: 1.2em;
+}
+.logInForm{
+    margin-left: 10px;
+}
+/* @media (min-width: 768px) and (max-width: 991.98px) {
+    .signInCom{
+        right: 12%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .signInCom{
+        right: 15%;
+    }
+}
+@media (max-width: 575.98px) {
+    .signInCom{
+        right: 35%;
+    }
+} */
